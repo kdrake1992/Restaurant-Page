@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Simple Restaurant Page using webpacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdrake1992/Restaurant-Page.git"
+  },
+  "author": "Kevin D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdrake1992/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/kdrake1992/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
