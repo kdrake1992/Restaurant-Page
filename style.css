@@ -126,6 +126,54 @@ img {
 
 /* Menu showcase */
 
+.bigMenu {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    overflow: auto;
+}
+
+.bigMenu h2 {
+    margin-top: 60px;
+    padding: 10px;
+    background-color: black;
+    opacity: .8;
+    margin-bottom: 30px;
+}
+
+#menupart {
+    padding: 10px;
+    color: black;
+    background-color: whitesmoke;
+    opacity: .9;
+
+    margin: 40px 0px;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.item {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    /* margin: 20px 50px; */
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.item img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
 /* Contact showcase */
 
 form {
@@ -165,6 +213,13 @@ input[type=submit]:hover {
     #showcasepicture {
         width: auto;
         height: 102vh;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
 
     .container {
