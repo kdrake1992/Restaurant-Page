@@ -41,10 +41,10 @@ function initial() {
 
 // Page start
 initial();
-const showcase = document.getElementById("main")
+const show = document.getElementById("main")
 
 function home() {
-    showcase.innerHTML = ` 
+    show.innerHTML = ` 
         <div id="main" class="showcase">
         <h1>Kamaʻāina Cafe</h1>
         <img src="/Assets/mainpage.jpeg" alt="Kamaainu" id="showcasepicture">
@@ -55,22 +55,19 @@ function home() {
         </div> 
     </div>
     `
-
-    return showcase;
-
+    return show;
 }
 
 function menu() {
-    showcase.innerHTML = `
+    show.innerHTML = `
         Work in Progress
     `
-    return showcase;
-
+    return show;
 }
 
 function contact() {
 
-    showcase.innerHTML = `
+    show.innerHTML = `
         <div class="container">
         <form action="#">
             <label for="firstN">First Name*</label>
@@ -94,8 +91,7 @@ function contact() {
         </form>
     </div>
     `
-
-    return showcase;
+    return show;
 }
 
 // Button controls
@@ -106,18 +102,16 @@ for(const button of buttons) {
         for(const button of buttons) {
             button.classList.remove("active");
         }
+        e.target.classList.add("active");
 
         if(e.target.innerHTML === "Home") {
-            showcase.appendChild(home());
-            e.target.classList.add("active");
+            show.append(home());
         }
         else if(e.target.innerHTML === "Menu") {
-            showcase.appendChild(menu());
-            e.target.classList.add("active");
+            show.append(menu());
         }        
         else if(e.target.innerHTML === "Contact") {
-            showcase.appendChild(contact());
-            e.target.classList.add("active");
+            show.append(contact());
         }
 
     })
