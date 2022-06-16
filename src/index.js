@@ -1,3 +1,9 @@
+// Imports CSS
+import './style.css'
+
+// // Imports pictures and initlize them
+// import MainPicture from './Assets/mainpage.jpeg'
+
 // Where all the content will go
 const content = document.getElementById('content');
 
