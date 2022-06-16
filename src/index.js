@@ -9,7 +9,7 @@ function initial() {
         <img src="/Assets/shaka.svg" alt="Shaka" id="shaka">
         <h2>Aloha!</h2>
 
-        <ol class="menu">
+        <ol class="menubuttons">
             <li><button class="menubuttons active">Home</button></li>
             <li><button class="menubuttons">Menu</button></li>
             <li><button class="menubuttons">Contact</button></li>
@@ -60,7 +60,93 @@ function home() {
 
 function menu() {
     show.innerHTML = `
-        Work in Progress
+        <div id="main" class="showcase bigMenu">
+        <h2><u>Grand Menu</u></h2>
+
+        <h2 id="menupart">Appetizers</h2>
+        <div class="menu">
+            <div class="item">
+                <img src="/Assets/hawaiianapp1.jpg" alt="">
+                <h3>Hawaiian Quesadilla</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <br>
+                <h3>$5.00</h3>
+            </div>
+            <div class="item">
+                <img src="/Assets/hawaiianapp2.jpg" alt="">
+                <h3>Teriyaki Pineapple</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <br>
+                <h3>$4.00</h3>
+            </div>
+            <div class="item">
+                <img src="/Assets/hawaiiapp3.jpg" alt="">
+                <h3>Ahi Poke Cups</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <br>
+                <h3>$6.00</h3>
+            </div>
+        </div>
+
+        <h2 id="menupart">Lunch Plates</h2>
+        <div class="menu">
+            <div class="item">
+                <img src="/Assets/burger.jpg" alt="">
+                <h3>Hawaiian BBQ Burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <br>
+                <h3>$10.00</h3>
+            </div>
+            <div class="item">
+                <img src="/Assets/locomoco.jpg" alt="">
+                <h3>Locomoco</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <br>
+                <h3>$9.00</h3>
+            </div>
+            <div class="item">
+                <img src="/Assets/garlicshrimp.jpg" alt="">
+                <h3>Garlic Shrimp</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <br>
+                <h3>$12.00</h3>
+            </div>
+        </div>
+        <h2 id="menupart">Drinks</h2>
+        <div class="menu">
+            <div class="item">
+                <img src="/Assets/passionguavajuice.jpg" alt="">
+                <h3>Passion Guava Juice</h3>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <h3>$3.00</h3>
+            </div>
+            <div class="item">
+                <img src="/Assets/hawaiianbeer.jpg" alt="">
+                <h3>Local Hawaiian Craft Beer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <br>
+                <h3>$2.50</h3>
+            </div>
+        </div>
+        <h2 id="menupart">Desserts</h2>
+        <div class="menu">
+            <div class="item">
+                <img src="/Assets/malasada.jpg" alt="">
+                <h3>Malasada</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <br>
+                <h3>$5.00</h3>
+            </div>
+            <div class="item">
+                <img src="/Assets/shavedice.jpg" alt="">
+                <h3>Shaved Ice</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <br>
+                <h3>$7.00</h3>
+            </div>
+        </div>
+    </div>
     `
     return show;
 }
@@ -105,13 +191,13 @@ for(const button of buttons) {
         e.target.classList.add("active");
 
         if(e.target.innerHTML === "Home") {
-            show.append(home());
+            show.appendChild(home());
         }
         else if(e.target.innerHTML === "Menu") {
-            show.append(menu());
+            show.appendChild(menu());
         }        
         else if(e.target.innerHTML === "Contact") {
-            show.append(contact());
+            show.appendChild(contact());
         }
 
     })
