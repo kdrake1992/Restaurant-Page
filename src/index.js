@@ -12,7 +12,7 @@ function initial() {
     content.innerHTML =
         `<div class="navbar">
 
-        <img src="/Assets/shaka.svg" alt="Shaka" id="shaka">
+        <img src="./Assets/shaka.svg" alt="Shaka" id="shaka">
         <h2>Aloha!</h2>
 
         <ol class="menubuttons">
@@ -24,15 +24,15 @@ function initial() {
         <h2>Social Media</h2>
 
         <ol class="icons">
-            <li><a href="https://www.facebook.com"><img src="/Assets/facebook.png" alt="Facebook" class="smallicons"></a></li>
-            <li><a href="https://www.twitter.com"><img src="/Assets/twitter.png" alt="Twitter" class="smallicons"></a></li>
-            <li><a href="https://www.instagram.com"><img src="/Assets/isnta.png" alt="Instagram" class="smallicons"></a></li>
+            <li><a href="https://www.facebook.com"><img src="./Assets/facebook.png" alt="Facebook" class="smallicons"></a></li>
+            <li><a href="https://www.twitter.com"><img src="./Assets/twitter.png" alt="Twitter" class="smallicons"></a></li>
+            <li><a href="https://www.instagram.com"><img src="./Assets/isnta.png" alt="Instagram" class="smallicons"></a></li>
         </ol>
     </div>
 
     <div id="main" class="showcase">
         <h1>Kamaʻāina Cafe</h1>
-        <img src="/Assets/mainpage.jpeg" alt="Kamaainu" id="showcasepicture">
+        <img src="./Assets/mainpage.jpeg" alt="Kamaainu" id="showcasepicture">
 
         <div id="description">
             <h2>Foods Made from Aloha</h2>
@@ -53,7 +53,7 @@ function home() {
     show.innerHTML = ` 
         <div id="main" class="showcase">
         <h1>Kamaʻāina Cafe</h1>
-        <img src="/Assets/mainpage.jpeg" alt="Kamaainu" id="showcasepicture">
+        <img src="./Assets/mainpage.jpeg" alt="Kamaainu" id="showcasepicture">
 
         <div id="description">
             <h2>Foods Made from Aloha</h2>
@@ -72,21 +72,21 @@ function menu() {
         <h2 id="menupart">Appetizers</h2>
         <div class="menu">
             <div class="item">
-                <img src="/Assets/hawaiianapp1.jpg" alt="">
+                <img src="./Assets/hawaiianapp1.jpg" alt="">
                 <h3>Hawaiian Quesadilla</h3>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <br>
                 <h3>$5.00</h3>
             </div>
             <div class="item">
-                <img src="/Assets/hawaiianapp2.jpg" alt="">
+                <img src="./Assets/hawaiianapp2.jpg" alt="">
                 <h3>Teriyaki Pineapple</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <br>
                 <h3>$4.00</h3>
             </div>
             <div class="item">
-                <img src="/Assets/hawaiiapp3.jpg" alt="">
+                <img src="./Assets/hawaiiapp3.jpg" alt="">
                 <h3>Ahi Poke Cups</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                 <br>
@@ -97,21 +97,21 @@ function menu() {
         <h2 id="menupart">Lunch Plates</h2>
         <div class="menu">
             <div class="item">
-                <img src="/Assets/burger.jpg" alt="">
+                <img src="./Assets/burger.jpg" alt="">
                 <h3>Hawaiian BBQ Burger</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <br>
                 <h3>$10.00</h3>
             </div>
             <div class="item">
-                <img src="/Assets/locomoco.jpg" alt="">
+                <img src="./Assets/locomoco.jpg" alt="">
                 <h3>Locomoco</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <br>
                 <h3>$9.00</h3>
             </div>
             <div class="item">
-                <img src="/Assets/garlicshrimp.jpg" alt="">
+                <img src="./Assets/garlicshrimp.jpg" alt="">
                 <h3>Garlic Shrimp</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <br>
@@ -121,14 +121,14 @@ function menu() {
         <h2 id="menupart">Drinks</h2>
         <div class="menu">
             <div class="item">
-                <img src="/Assets/passionguavajuice.jpg" alt="">
+                <img src="./Assets/passionguavajuice.jpg" alt="">
                 <h3>Passion Guava Juice</h3>
                 <p>Lorem ipsum dolor sit.</p>
                 <br>
                 <h3>$3.00</h3>
             </div>
             <div class="item">
-                <img src="/Assets/hawaiianbeer.jpg" alt="">
+                <img src="./Assets/hawaiianbeer.jpg" alt="">
                 <h3>Local Hawaiian Craft Beer</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <br>
@@ -138,14 +138,14 @@ function menu() {
         <h2 id="menupart">Desserts</h2>
         <div class="menu">
             <div class="item">
-                <img src="/Assets/malasada.jpg" alt="">
+                <img src="./Assets/malasada.jpg" alt="">
                 <h3>Malasada</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <br>
                 <h3>$5.00</h3>
             </div>
             <div class="item">
-                <img src="/Assets/shavedice.jpg" alt="">
+                <img src="./Assets/shavedice.jpg" alt="">
                 <h3>Shaved Ice</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                 <br>
