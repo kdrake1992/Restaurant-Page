@@ -51,7 +51,6 @@ const show = document.getElementById("main")
 
 function home() {
     show.innerHTML = ` 
-        <div id="main" class="showcase">
         <h1>Kamaʻāina Cafe</h1>
         <img src="./Assets/mainpage.jpeg" alt="Kamaainu" id="showcasepicture">
 
@@ -59,7 +58,6 @@ function home() {
             <h2>Foods Made from Aloha</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem numquam saepe excepturi, distinctio totam pariatur itaque temporibus odit ipsa aliquam? Nobis consequuntur et quas, dolores eveniet ipsam quo, non dicta saepe in dolorem totam maiores voluptas iure, accusamus iste error odio magnam sapiente reprehenderit deleniti nemo ullam? Nisi, repellat?</p>
         </div> 
-    </div>
     `
     return show;
 }
@@ -181,8 +179,9 @@ function contact() {
 
             <input type="submit" value="Submit" id="submit">
         </form>
-    </div>
-    `
+        </div>
+        `
+        
     return show;
 }
 
